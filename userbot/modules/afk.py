@@ -85,8 +85,8 @@ async def mention_afk(mention):
                         )
                     else:
                         await mention.reply(
-                            f"**I'm not available right now.** (Since: {afk_str})"
-                            "\n**Please come back later.**"
+                            f"**Saya sedang tidak afk sekarang.** (Since: {afk_str})"
+                            "\n**Tolong Kembali Lagi nanti**"
                         )
                     USERS[mention.sender_id] = USERS[mention.sender_id] + 1
                     COUNT_MSG = COUNT_MSG + 1
